@@ -3,6 +3,6 @@ on: [push]
 jobs:
   code-build-job:
     runs-on:
-      - codebuild-kk-build-test-${{ github.run_id }}-${{ github.run_attempt }}
+      - codebuild-kk1-${{ github.run_id }}-${{ github.run_attempt }}
     steps:
       - run: echo "Hello World!"
