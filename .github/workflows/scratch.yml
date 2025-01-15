@@ -6,5 +6,5 @@ jobs:
       - codebuild-kk1-${{ github.run_id }}-${{ github.run_attempt }}
     steps:
       - run: |
-        echo "Hello World!"
-        env
+           echo "Hello World!"
+           env
